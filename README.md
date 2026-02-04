@@ -253,7 +253,7 @@ p.note { display: none; }
 <a href="20260204_032.JPG" target="_blank"><img src="20260204_032.JPG" alt="サンプル画像" class="responsive-media"></a>
 <a href="20260204_033.JPG" target="_blank"><img src="20260204_033.JPG" alt="サンプル画像" class="responsive-media"></a>
 
-<h2><span class="yellow">生まれたての鶏の雛が巣から迷い出たので保護<br>日が陰って寒くなると寒い寒いと騒ぐので、屋内に入れました</span></h2>
+<h2><span class="yellow">巣から迷い出て保護した雛たち<br>日が陰って寒くなると寒い寒いと騒ぐので、屋内に入れました</span></h2>
 <div class="youtube-wrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KB55L67rmZw?si=6BftCHpShiTq0cVJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
