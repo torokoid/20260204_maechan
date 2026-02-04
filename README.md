@@ -1,1 +1,437 @@
 # 20260204_maechan
+
+<html lang="ja" data-loaded="false" data-scrolled="false" data-spmenu="closed">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--ここから上はお決まりの定型文です-->
+
+
+<!--ここからが表現の書式などを決めるcssという部分-->
+
+<style type="text/css">
+p {
+color: #fffafa;
+font-size: 1.5em;
+}
+
+
+.red {color:#ff0000;}
+.grey {color:#ffffff; background:#999999;}
+.snow {color:#fffafa;}
+.yellow {color:#ff0000; background:#ffff00;}
+.blue {color:#0000ff;}
+.white {color:#ffffff;}
+.waku {border:2px dotted #99cc66;
+line-height: 200%;
+padding: 10px;}
+
+
+main {
+background-color: rgba(255, 255, 255, 0.5);
+}
+
+section {
+background-color: rgba(0, 225, 0, 0.3);
+}
+
+
+/* 点滅 */
+.blinking{
+-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+-moz-animation:blink 1.5s ease-in-out infinite alternate;
+animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@-moz-keyframes blink{
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@keyframes blink{
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#wrap {background:none} /*PC用の背景はオフ*/
+
+/*背景を表示させる部分*/
+body::before {
+content:"";
+display:block;
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
+width:100%;
+height:100vh;
+background:url(https://torokoid.github.io/20260204_maechan/20260204_031.JPG) center/cover no-repeat;
+-webkit-background-size:cover;/*Android4*/
+}
+
+a.p:hover {
+position: relative;
+text-decoration: none;
+}
+a.p span {
+display: none;
+position: relative;
+top: -0.5em;
+left: 2em;
+}
+a.p:hover span {
+border: none;
+display: block;
+width: 800px;
+}
+
+
+@media screen and (min-width: 540px),
+screen and (orientation: landscape) {
+p.note { display: none; }
+}
+
+
+    
+.media-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.responsive-media {
+  width: 100%;
+  display: block;
+}
+
+.youtube-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9比率 */
+  height: 0;
+}
+
+.youtube-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+    
+    
+</style>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+<!--
+    <p><a href="https://torokoid.github.io/20250927_maechan/">Happy Birthday</a>><a href="https://torokoid.github.io/20250927__maechan/">Polis's Home></a>Polis's Home_2</p>
+-->
+
+
+<p class="note">
+モバイル端末をお使いの場合は、画面を横向きにすると
+背景画像の横方向がご覧頂けます。
+</p>
+
+
+<!--ここ上は、ほぼそのまま使います！-->
+
+
+<!--QRコードの挿入例-->
+<p align="left"> <img src="QR_2026Feb04.png" alt="アクセス用QRコード" width="100">QR for Access</p>
+<p align="right"><marquee direction="left" scrollamount="20" width="30%">(^_^)/~alis</marquee></p>
+
+<!--流れ文字の挿入例-->
+<h1><span class="yellow"><marquee behavior="left">!!! 2026/02/03 、朝焼と鳥、巣から迷い出た雛たちと火曜市場から定点観測の夕暮れまで !!!</marquee></span></h1>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!--ここから下が、本体部分-->
+    
+
+<div class="media-container">
+
+<h2><span class="yellow">03,Feb,2026 寝坊したのでお日様は高めの位置に</span></h2>
+<a href="20260204_001.JPG" target="_blank"><img src="20260204_001.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">屋根の鳩たちは、斜面で居心地が悪そう</span></h2>
+<a href="20260204_002.JPG" target="_blank"><img src="20260204_002.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">生まれたての鶏の雛が巣から迷い出たので、一旦保護</span></h2>
+<a href="20260204_003.JPG" target="_blank"><img src="20260204_003.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">陽射しの下で3羽仲良く寄り添ってます</span></h2>
+<a href="20260204_004.JPG" target="_blank"><img src="20260204_004.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_006.JPG" target="_blank"><img src="20260204_006.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">蘭のお花も、見事に満開</span></h2>
+<a href="20260204_005.JPG" target="_blank"><img src="20260204_005.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_007.JPG" target="_blank"><img src="20260204_007.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_008.JPG" target="_blank"><img src="20260204_008.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">さらに2羽を保護、色違いの黒は幼すぎて地面でおねんね</span></h2>
+<a href="20260204_009.JPG" target="_blank"><img src="20260204_009.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">先に生まれた兄弟に起こされて、よちよち歩きの黒</span></h2>
+<a href="20260204_010.JPG" target="_blank"><img src="20260204_010.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">近所の店で鳥の餌を購入</span></h2>
+<a href="20260204_011.JPG" target="_blank"><img src="20260204_011.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">火曜日なので、いつもの市場でお買い物</span></h2>
+<a href="20260204_012.JPG" target="_blank"><img src="20260204_012.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">広場の仏壇はお供物でいっぱい</span></h2>
+<a href="20260204_013.JPG" target="_blank"><img src="20260204_013.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">交通整理のお巡りさん、邪魔なバイクも移動してます</span></h2>
+<a href="20260204_014.JPG" target="_blank"><img src="20260204_014.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">市場はいつも、結構な人出</span></h2>
+<a href="20260204_015.JPG" target="_blank"><img src="20260204_015.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_016.JPG" target="_blank"><img src="20260204_016.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_017.JPG" target="_blank"><img src="20260204_017.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">お寿司屋さんの屋台も人気です</span></h2>
+<a href="20260204_018.JPG" target="_blank"><img src="20260204_018.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">ドーナッツ屋さんは品出し中</span></h2>
+<a href="20260204_019.JPG" target="_blank"><img src="20260204_019.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">最初の仏壇を陽射しの当たる側からも撮影</span></h2>
+<a href="20260204_020.JPG" target="_blank"><img src="20260204_020.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">八百屋さんでは娘さんがお手伝い</span></h2>
+<a href="20260204_021.JPG" target="_blank"><img src="20260204_021.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_001.png" target="_blank"><img src="20260204_001.png" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_022.JPG" target="_blank"><img src="20260204_022.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">市場の屋台の虫除けシステム、扇風機のモーター部分を再利用しています</span></h2>
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yS2WqYoGgVg?si=jdQE0GfqJzoLfzfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+<h2><span class="yellow">顔付きドーナッツはタイ特有かも？</span></h2>
+<a href="20260204_023.JPG" target="_blank"><img src="20260204_023.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_024.JPG" target="_blank"><img src="20260204_024.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">学校帰りの男の子が、お父さんに頼んでドーナッツ購入</span></h2>
+<a href="20260204_025.JPG" target="_blank"><img src="20260204_025.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">広場に常設のお店の猫ちゃん</span></h2>
+<a href="20260204_026.JPG" target="_blank"><img src="20260204_026.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">こちらのみかんは格安、3kg買うと100バーツ（5バーツ割引）</span></h2>
+<a href="20260204_027.JPG" target="_blank"><img src="20260204_027.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">人並が一瞬途絶えたのでパチリ！</span></h2>
+<a href="20260204_028.JPG" target="_blank"><img src="20260204_028.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">西陽に照らされた蘭のお花が色づいてニッコリ</span></h2>
+<a href="20260204_029.JPG" target="_blank"><img src="20260204_029.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">屋根上からはいつもの鳩さん</span></h2>
+<a href="20260204_030.JPG" target="_blank"><img src="20260204_030.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_031.JPG" target="_blank"><img src="20260204_031.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_032.JPG" target="_blank"><img src="20260204_032.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_033.JPG" target="_blank"><img src="20260204_033.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">生まれたての鶏の雛が巣から迷い出たので保護<br>日が陰って寒くなると寒い寒いと騒ぐので、屋内に入れました</span></h2>
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KB55L67rmZw?si=6BftCHpShiTq0cVJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+<h2><span class="yellow">定点日没画像が撮れました</span></h2>
+<a href="20260204_034.JPG" target="_blank"><img src="20260204_034.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">蘭のお花はさらに絶妙な色づき</span></h2>
+<a href="20260204_035.JPG" target="_blank"><img src="20260204_035.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">日没時の餌の時間に集まる、鶏とアヒルたち</span></h2>
+<a href="20260204_036.JPG" target="_blank"><img src="20260204_036.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">ここから、夕暮れ定点観測映像</span></h2>
+<a href="20260204_037.JPG" target="_blank"><img src="20260204_037.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_038.JPG" target="_blank"><img src="20260204_038.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_039.JPG" target="_blank"><img src="20260204_039.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_040.JPG" target="_blank"><img src="20260204_040.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">オレンジ・グラデーションが濃くなり始めました</span></h2>
+<a href="20260204_041.JPG" target="_blank"><img src="20260204_041.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_042.JPG" target="_blank"><img src="20260204_042.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_043.JPG" target="_blank"><img src="20260204_043.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">ここが最高発色</span></h2>
+<a href="20260204_044.JPG" target="_blank"><img src="20260204_044.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_045.JPG" target="_blank"><img src="20260204_045.JPG" alt="サンプル画像" class="responsive-media"></a>
+<a href="20260204_046.JPG" target="_blank"><img src="20260204_046.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">暮れてゆきました</span></h2>
+<a href="20260204_047.JPG" target="_blank"><img src="20260204_047.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">地平オレンジも終了</span></h2>
+<a href="20260204_048.JPG" target="_blank"><img src="20260204_048.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+<h2><span class="yellow">星空が綺麗だったので、冬の星座たちとカノープス</span></h2>
+<a href="20260204_049.JPG" target="_blank"><img src="20260204_049.JPG" alt="サンプル画像" class="responsive-media"></a>
+
+
+
+
+
+
+
+
+
+
+<br><br><br>
+<!--
+<h2><span class="yellow">当日の月齢を表示する月齢カレンダーのリンク貼ります</span></h2>
+<h2><a href="https://starwalk.space/ja/moon-calendar" target="_blank">月齢カレンダー・リンク</a></h2>
+
+<h2><span class="yellow">冬の大三角形、説明リンク貼りますね</span></h2>
+<h2><a href="https://www.kenko-tokina.co.jp/special/celestial/201601_sorawomiyou.html" target="_blank">冬の大三角形とは</a></h2>
+-->
+<h2><span class="yellow">カノープス、再度説明リンクします</span></h2>
+<h2><a href="https://www.astroarts.co.jp/special/2025canopus/index-j.shtml" target="_blank">カノープスとは</a></h2>
+
+
+    
+<!--
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/51tmW4PV-Xw?si=v7PtzTJ3WaY8o6uJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MvsoLLa-XHQ?si=-zvqXbodBPV2nEFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+<h2><span class="yellow">Short movies</span></h2>
+https://youtube.com/shorts/773yijDWNEM?feature=share<br>
+https://youtube.com/shorts/fXWujjVeAQo?feature=share<br>
+https://youtube.com/shorts/43kwtgxybM8?feature=share<br>
+https://youtube.com/shorts/jKhX0RtXWAk?feature=share<br>
+https://youtube.com/shorts/Fqw8KGuUPtA?feature=share<br>
+https://youtube.com/shorts/ieJlzaTlpn0?feature=share<br>
+https://youtube.com/shorts/z8YXZQyPVMA?feature=share<br>
+https://youtube.com/shorts/1MxKGMEFFR4?feature=share<br>
+-->
+
+<br><br><br><br><br><br><br><br><br>
+
+<br><br>
+
+<h2><span class="yellow">今日のBGMは、LOBO Greatest Hits Full Album 2026 || Best Love Songs of All Time || Top 20 Nonstop Songs</span></h2>
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4VPJvIzivVg?si=H8th4JFHP5JOgQB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+<!--
+<h2><span class="yellow">もう1つは、Tracy Chapman Greatest Hits Full Album - Best Songs Of Tracy Chapman - Tracy Chapman 2025</span></h2>
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wtCjvViS8SA?si=vnZ4Uthrs_jJ3nj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+<br><br><br><br>
+
+<h2><span class="yellow">以下、しばらく据え置きます</span></h2>
+
+<br><br>
+
+<h2><span class="yellow">今日の1曲は再掲ですが、Sinead O'Connor - Nothing Compares 2 U (Live)</span></h2>
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NAOKzvL8dgk?si=QPHFN3aQAECEKtE-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+<h2><span class="yellow">こちらがオリジナル、Prince - Nothing Compares 2 U (Live At Paisley Park, 1999)</span></h2>
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1NarDEEhOsM?si=879m1krkyyWdnJtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+<h2><span class="yellow">さらにもう一曲プリンスといえばこれ、Prince - Purple Rain (Live At Paisley Park, 1999)<br>プログレッシブロックなので好みが分かれるところですが・・・</span></h2>
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ryT-ltTDCko?si=HhEEKCeje68xjVeJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+-->
+
+<!--
+<h2><span class="yellow">最後の一曲は、Toshl 365日の紙飛行機(AKB48さんカバー)</span></h2>
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gTSIQIWvb0A?si=10YFot0Zc02i0sq5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+-->
+
+<br><br><br>
+<h2><span class="yellow">朝焼と鳥、巣から迷い出た雛たちと火曜市場から定点観測の夕暮れまででした<br>Thank you for reading this far.</span></h2>
+<!--
+<br><br><br><br><br>
+<h2><span class="yellow">
+<a href="https://torokoid.github.io/Mashiko_himawari_3/" target="_blank">クリックでメニューページに戻ります</a>
+</span></h2>
+-->
+
+<br><br><br>
+
+<!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<p>you are <img src="https://hitwebcounter.com/counter/counter.php?page=21345151&style=0018&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" />visitor<br>The numbers are cumulative for the Bangkok series websites launched since August 1st.</p></a>   
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+<br><br>
+
+<br><br><br><br><br><br>
+
+<!--本体はここまで-->
+    </div>
+
+<!--画面に空白地帯を作って、背景が見えるようにしています-->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<!-- フッタ -->
+<footer>
+<p>Copyright 2026/02/04 alis @Mae Chan</p>
+</footer>
+
+<!--HPにさまざまなJavaScriptを呼び込むための書式-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+<script type='text/javascript' src='https://torokoid.github.io/shiba/jquery.js?ver=1.12.4'></script>
+<script src="https://torokoid.github.io/shiba/jquery.goup.min.js"></script>
+<script src="https://torokoid.github.io/shiba/my.js"></script>
+    
+    </body>
+    
+</html>
